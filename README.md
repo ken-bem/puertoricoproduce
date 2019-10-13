@@ -1,24 +1,5 @@
-# puertoricoproduce
+# Puerto Rico Produce
 
-## Project setup
-```
-yarn install
-```
+Site redesign project.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+This repo is just for learning purposes and its not associated with Puerto Rico Produce.
