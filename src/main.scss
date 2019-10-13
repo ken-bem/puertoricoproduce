@@ -1,0 +1,45 @@
+.wordpress  p, .wordpress pre, .wordpress ol{
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: white!important;
+}
+
+.wordpress ol{
+  padding-left: 3rem;
+  list-style: lower-roman;
+}
+
+.wp-block-image{
+  margin-top: 25px;
+  width: 50%;
+  text-align: center;
+}
+
+
+.has-2-columns{
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding: 5px;
+  //flex-wrap: wrap;
+
+  > .wp-block-column {
+    width: 50%;
+    margin: 5px;
+    background-color: white;
+    padding: 2rem;
+  }
+
+
+}
+
+@media(max-width: 995px) {
+
+  .has-2-columns{
+    .wp-block-column{
+      width: 100%;
+    }
+  }
+
+}
+
